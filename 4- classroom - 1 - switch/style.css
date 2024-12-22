@@ -1,0 +1,34 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Altere conforme necessário */
+    line-height: 1.5;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button, input, textarea {
+    font: inherit; /* Garante que a tipografia dos formulários siga a do documento */
+    border: none;
+    outline: none;
+    background: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Garante que o link herde a cor do elemento pai */
+}
